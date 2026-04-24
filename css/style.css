@@ -769,3 +769,17 @@ h2 .accent { color: var(--green); }
   .nav-slides { display: none; }
   .nav-live { display: none; }
 }
+
+.arch-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.arch-image img {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  border-radius: 14px;
+}

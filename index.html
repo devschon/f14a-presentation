@@ -59,6 +59,9 @@
     <p class="subtitle">
       A unified equity research platform that combines market data, news, and explainable summaries into a single company brief.
     </p>
+    <p class="team-val">
+      Adam Schon, Adnan Hameed Sadiq, Saqib Rashid, Sujith Korishetty, Tazin Saiyed
+    </p>
     <div class="code-block">
       <span class="kw">await</span> fetch(<span class="str">'https://collectionservice.schon.au/v1/company-brief'</span>, {<br>
       &nbsp;&nbsp;method: <span class="str">'POST'</span>,<br>
@@ -71,10 +74,10 @@
       <div><div class="team-label">Year</div><div class="team-val">2026</div></div>
     </div>
   </div>
-  <div class="scroll-hint">
+  <!-- <div class="scroll-hint">
     <span>Scroll or use arrow keys</span>
     <div class="arrow"></div>
-  </div>
+  </div> -->
   <div class="sep"></div>
 </section>
 
@@ -275,49 +278,12 @@
   <div class="slide-inner stagger">
     <div class="slide-num">08 — Architecture</div>
     <h2>System <span class="accent">Architecture</span></h2>
-    <p class="subtitle">Separated concerns — each service evolves independently while contributing to one coherent product.</p>
-    <div class="arch">
-      <div class="arch-row">
-        <div class="arch-label">Frontend</div>
-        <div class="arch-items">
-          <span class="tag">Next.js</span>
-          <span class="tag">React</span>
-          <span class="tag gray">TypeScript</span>
-        </div>
-      </div>
-      <div class="arch-row">
-        <div class="arch-label">Backend</div>
-        <div class="arch-items">
-          <span class="tag">FastAPI</span>
-          <span class="tag gray">Python</span>
-          <span class="tag gray">Microservices</span>
-          <span class="tag gray">REST</span>
-        </div>
-      </div>
-      <div class="arch-row">
-        <div class="arch-label">Auth / DB</div>
-        <div class="arch-items">
-          <span class="tag">Supabase</span>
-          <span class="tag">Supabase Auth</span>
-          <span class="tag gray">PostgreSQL</span>
-        </div>
-      </div>
-      <div class="arch-row">
-        <div class="arch-label">Background</div>
-        <div class="arch-items">
-          <span class="tag">Redis</span>
-          <span class="tag">Upstash</span>
-          <span class="tag gray">Workflow queues</span>
-        </div>
-      </div>
-      <div class="arch-row">
-        <div class="arch-label">Deployment</div>
-        <div class="arch-items">
-          <span class="tag">Vercel</span>
-          <span class="tag">Cloudflare</span>
-          <span class="tag gray">Dev / Staging / Prod</span>
-        </div>
-      </div>
+    <p class="subtitle">
+      Separated concerns — each service evolves independently while contributing to one coherent product.
+    </p>
+
+    <div class="arch-image">
+      <img src="./public/SoftwareArchitectureSEN3011.png" alt="System Architecture Diagram">
     </div>
   </div>
   <div class="sep"></div>
